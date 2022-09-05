@@ -26,11 +26,11 @@ const play = (question, answer) => {
   var userAnswer = readlineSync.question(question)
   if (userAnswer.toLowerCase() === answer.toLowerCase()) {
     console.log('You are right!');
-    score = score + 1;
+    score += 2;
   }
   else {
     console.log('You are wrong! Right answer was ' + answer);
-    score = score - 1;
+    score -=  2;
   }
   console.log('Current score : ' + score);
   console.log('----------------------------------')
