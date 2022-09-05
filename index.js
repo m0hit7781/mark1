@@ -1,6 +1,5 @@
 var readlineSync = require('readline-sync');
 
-// Changes here
 var userName = readlineSync.question('What is your name ? ');
 console.log('Hey ' + userName + '! Welcome to HOW WELL DO YOU KNOW Mohit Quiz.');
 console.log('---------------------------------------------------');
